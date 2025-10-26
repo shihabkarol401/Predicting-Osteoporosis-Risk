@@ -1,0 +1,2687 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0912.2314                               -->
+<workbook original-version='18.1' source-build='2025.2.3 (20252.25.0912.2314)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='osteoporosis_processed' inline='true' name='federated.0l5kb7713zlg3r13t8kl112q0er0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='osteoporosis_processed' name='textscan.1lslzjt06655jt1ftsaby1mms7tf'>
+            <connection class='textscan' directory='C:/Users/shiha/Downloads' filename='osteoporosis_processed.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1lslzjt06655jt1ftsaby1mms7tf' name='osteoporosis_processed.csv' table='[osteoporosis_processed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Id' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='integer' name='Osteoporosis' ordinal='2' />
+            <column datatype='integer' name='Gender_Male' ordinal='3' />
+            <column datatype='integer' name='Hormonal Changes_Postmenopausal' ordinal='4' />
+            <column datatype='integer' name='Family History_Yes' ordinal='5' />
+            <column datatype='integer' name='Race/Ethnicity_Asian' ordinal='6' />
+            <column datatype='integer' name='Race/Ethnicity_Caucasian' ordinal='7' />
+            <column datatype='integer' name='Body Weight_Underweight' ordinal='8' />
+            <column datatype='integer' name='Calcium Intake_Low' ordinal='9' />
+            <column datatype='integer' name='Vitamin D Intake_Sufficient' ordinal='10' />
+            <column datatype='integer' name='Physical Activity_Sedentary' ordinal='11' />
+            <column datatype='integer' name='Smoking_Yes' ordinal='12' />
+            <column datatype='integer' name='Medical Conditions_Rheumatoid Arthritis' ordinal='13' />
+            <column datatype='integer' name='Prior Fractures_Yes' ordinal='14' />
+            <column datatype='real' name='Age_x_Smoking' ordinal='15' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Osteoporosis</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Osteoporosis]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Osteoporosis</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender_Male</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gender_Male]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Gender_Male</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hormonal Changes_Postmenopausal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hormonal Changes_Postmenopausal]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Hormonal Changes_Postmenopausal</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Family History_Yes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Family History_Yes]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Family History_Yes</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Race/Ethnicity_Asian</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Race/Ethnicity_Asian]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Race/Ethnicity_Asian</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Race/Ethnicity_Caucasian</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Race/Ethnicity_Caucasian]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Race/Ethnicity_Caucasian</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Body Weight_Underweight</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Body Weight_Underweight]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Body Weight_Underweight</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calcium Intake_Low</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calcium Intake_Low]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Calcium Intake_Low</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin D Intake_Sufficient</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vitamin D Intake_Sufficient]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Vitamin D Intake_Sufficient</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Physical Activity_Sedentary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Physical Activity_Sedentary]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Physical Activity_Sedentary</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smoking_Yes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Smoking_Yes]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Smoking_Yes</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medical Conditions_Rheumatoid Arthritis</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Medical Conditions_Rheumatoid Arthritis]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Medical Conditions_Rheumatoid Arthritis</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prior Fractures_Yes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Prior Fractures_Yes]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Prior Fractures_Yes</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age_x_Smoking</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age_x_Smoking]</local-name>
+            <parent-name>[osteoporosis_processed.csv]</parent-name>
+            <remote-alias>Age_x_Smoking</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age x Smoking' datatype='real' name='[Age_x_Smoking]' role='measure' type='quantitative' />
+      <column caption='Body Weight Underweight' datatype='integer' name='[Body Weight_Underweight]' role='dimension' type='ordinal' />
+      <column caption='Calcium Intake Low' datatype='integer' name='[Calcium Intake_Low]' role='dimension' type='ordinal' />
+      <column caption='Osteoporosis Status' datatype='string' name='[Calculation_2955487321118683136]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Osteoporosis] = 1 THEN &quot;Positive (Osteoporosis)&quot; ELSE &quot;Negative (Normal)&quot; END' />
+      </column>
+      <column aggregation='Sum' caption='Lifestyle Risk Score' datatype='integer' name='[Calculation_2955487321120227330]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[Smoking_Yes] + [Physical Activity_Sedentary] + [Body Weight_Underweight] + [Calcium Intake_Low]' />
+      </column>
+      <column caption='Biological Risk Score' datatype='real' name='[Calculation_2955487321120403459]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Gender_Male] + [Hormonal Changes_Postmenopausal] + [Age_x_Smoking]' />
+      </column>
+      <column caption='Age Group' datatype='string' name='[Calculation_2955487321120509956]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Age] &lt; 40 THEN &quot;&lt;40&quot;&#13;&#10;ELSEIF [Age] &lt; 60 THEN &quot;40-59&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Osteoporosis Prevalence (Avg)' datatype='real' name='[Calculation_2955487321128636421]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='WINDOW_AVG(AVG([Osteoporosis]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Percent Osteoporosis' datatype='real' name='[Calculation_2955487321136680967]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Osteoporosis])' />
+      </column>
+      <column caption='Family History Yes' datatype='integer' name='[Family History_Yes]' role='dimension' type='ordinal' />
+      <column caption='Gender Male' datatype='integer' name='[Gender_Male]' role='dimension' type='ordinal' />
+      <column caption='Hormonal Changes Postmenopausal' datatype='integer' name='[Hormonal Changes_Postmenopausal]' role='dimension' type='ordinal' />
+      <column caption='Medical Conditions Rheumatoid Arthritis' datatype='integer' name='[Medical Conditions_Rheumatoid Arthritis]' role='dimension' type='ordinal' />
+      <column caption='Physical Activity Sedentary' datatype='integer' name='[Physical Activity_Sedentary]' role='dimension' type='ordinal' />
+      <column caption='Prior Fractures Yes' datatype='integer' name='[Prior Fractures_Yes]' role='dimension' type='ordinal' />
+      <column caption='Race/Ethnicity Asian' datatype='integer' name='[Race/Ethnicity_Asian]' role='dimension' type='ordinal' />
+      <column caption='Race/Ethnicity Caucasian' datatype='integer' name='[Race/Ethnicity_Caucasian]' role='dimension' type='ordinal' />
+      <column caption='Smoking Yes' datatype='integer' name='[Smoking_Yes]' role='dimension' type='ordinal' />
+      <column caption='Vitamin D Intake Sufficient' datatype='integer' name='[Vitamin D Intake_Sufficient]' role='dimension' type='ordinal' />
+      <column caption='osteoporosis_processed.csv' datatype='table' name='[__tableau_internal_object_id__].[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_2955487321118683136]' derivation='None' name='[none:Calculation_2955487321118683136:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Body Weight Underweight,Calcium Intake Low,Family History Yes,Gender Male,Hormonal Changes Postmenopausal,Medical Conditions Rheumatoid Arthritis,Physical Activity Sedentary,Prior Fractures Yes,Race/Ethnicity Asian,Race/Ethnicity Caucasian,Smoking Yes,Vitamin D Intake Sufficient)' hidden='true' name='[Action (Body Weight Underweight,Calcium Intake Low,Family History Yes,Gender Male,Hormonal Changes Postmenopausal,Medical Conditions Rheumatoid Arthritis,Physical Activity Sedentary,Prior Fractures Yes,Race/Ethnicity Asian,Race/Ethnicity Caucasian,Smoking Yes,Vitamin D Intake Sufficient)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Body Weight_Underweight]' />
+          <groupfilter function='level-members' level='[Calcium Intake_Low]' />
+          <groupfilter function='level-members' level='[Family History_Yes]' />
+          <groupfilter function='level-members' level='[Gender_Male]' />
+          <groupfilter function='level-members' level='[Hormonal Changes_Postmenopausal]' />
+          <groupfilter function='level-members' level='[Medical Conditions_Rheumatoid Arthritis]' />
+          <groupfilter function='level-members' level='[Physical Activity_Sedentary]' />
+          <groupfilter function='level-members' level='[Prior Fractures_Yes]' />
+          <groupfilter function='level-members' level='[Race/Ethnicity_Asian]' />
+          <groupfilter function='level-members' level='[Race/Ethnicity_Caucasian]' />
+          <groupfilter function='level-members' level='[Smoking_Yes]' />
+          <groupfilter function='level-members' level='[Vitamin D Intake_Sufficient]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Osteoporosis Status,Age Group)' hidden='true' name='[Action (Osteoporosis Status,Age Group)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Calculation_2955487321118683136]' />
+          <groupfilter function='level-members' level='[Calculation_2955487321120509956]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/shiha/AppData/Local/Temp/TableauTemp/#TableauTemp_0gz7uga00pq2xj1dlkcv40ah9yoz.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/19/2025 09:35:09 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1376</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>73</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Osteoporosis</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Osteoporosis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Osteoporosis</remote-alias>
+              <ordinal>2</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender_Male</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Gender_Male]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender_Male</remote-alias>
+              <ordinal>3</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hormonal Changes_Postmenopausal</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Hormonal Changes_Postmenopausal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hormonal Changes_Postmenopausal</remote-alias>
+              <ordinal>4</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Family History_Yes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Family History_Yes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Family History_Yes</remote-alias>
+              <ordinal>5</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Race/Ethnicity_Asian</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Race/Ethnicity_Asian]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Race/Ethnicity_Asian</remote-alias>
+              <ordinal>6</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Race/Ethnicity_Caucasian</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Race/Ethnicity_Caucasian]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Race/Ethnicity_Caucasian</remote-alias>
+              <ordinal>7</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Body Weight_Underweight</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Body Weight_Underweight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Body Weight_Underweight</remote-alias>
+              <ordinal>8</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Calcium Intake_Low</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Calcium Intake_Low]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Calcium Intake_Low</remote-alias>
+              <ordinal>9</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vitamin D Intake_Sufficient</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Vitamin D Intake_Sufficient]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vitamin D Intake_Sufficient</remote-alias>
+              <ordinal>10</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Physical Activity_Sedentary</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Physical Activity_Sedentary]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Physical Activity_Sedentary</remote-alias>
+              <ordinal>11</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Smoking_Yes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Smoking_Yes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Smoking_Yes</remote-alias>
+              <ordinal>12</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Medical Conditions_Rheumatoid Arthritis</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Medical Conditions_Rheumatoid Arthritis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Medical Conditions_Rheumatoid Arthritis</remote-alias>
+              <ordinal>13</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Prior Fractures_Yes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Prior Fractures_Yes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Prior Fractures_Yes</remote-alias>
+              <ordinal>14</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age_x_Smoking</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Age_x_Smoking]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age_x_Smoking</remote-alias>
+              <ordinal>15</ordinal>
+              <family>osteoporosis_processed.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_2955487321118683136:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Negative (Normal)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Positive (Osteoporosis)&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='osteoporosis_processed.csv' id='osteoporosis_processed.csv_0DC77FDCE14E48D3A558B7F655903582'>
+            <properties context=''>
+              <relation connection='textscan.1lslzjt06655jt1ftsaby1mms7tf' name='osteoporosis_processed.csv' table='[osteoporosis_processed#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Id' ordinal='0' />
+                  <column datatype='integer' name='Age' ordinal='1' />
+                  <column datatype='integer' name='Osteoporosis' ordinal='2' />
+                  <column datatype='integer' name='Gender_Male' ordinal='3' />
+                  <column datatype='integer' name='Hormonal Changes_Postmenopausal' ordinal='4' />
+                  <column datatype='integer' name='Family History_Yes' ordinal='5' />
+                  <column datatype='integer' name='Race/Ethnicity_Asian' ordinal='6' />
+                  <column datatype='integer' name='Race/Ethnicity_Caucasian' ordinal='7' />
+                  <column datatype='integer' name='Body Weight_Underweight' ordinal='8' />
+                  <column datatype='integer' name='Calcium Intake_Low' ordinal='9' />
+                  <column datatype='integer' name='Vitamin D Intake_Sufficient' ordinal='10' />
+                  <column datatype='integer' name='Physical Activity_Sedentary' ordinal='11' />
+                  <column datatype='integer' name='Smoking_Yes' ordinal='12' />
+                  <column datatype='integer' name='Medical Conditions_Rheumatoid Arthritis' ordinal='13' />
+                  <column datatype='integer' name='Prior Fractures_Yes' ordinal='14' />
+                  <column datatype='real' name='Age_x_Smoking' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0l5kb7713zlg3r13t8kl112q0er0'>
+      <datasources>
+        <datasource caption='osteoporosis_processed' name='federated.0l5kb7713zlg3r13t8kl112q0er0' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0l5kb7713zlg3r13t8kl112q0er0'>
+        <column caption='Age Group' datatype='string' name='[Calculation_2955487321120509956]' role='dimension' type='nominal'>
+          <calculation class='tableau' formula='IF [Age] &lt; 40 THEN &quot;&lt;40&quot;&#13;&#10;ELSEIF [Age] &lt; 60 THEN &quot;40-59&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+        </column>
+        <column caption='Gender Male' datatype='integer' name='[Gender_Male]' role='dimension' type='ordinal' />
+        <column caption='Race/Ethnicity Asian' datatype='integer' name='[Race/Ethnicity_Asian]' role='dimension' type='ordinal' />
+        <column-instance column='[Calculation_2955487321120509956]' derivation='None' name='[none:Calculation_2955487321120509956:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Gender_Male]' derivation='None' name='[none:Gender_Male:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[Race/Ethnicity_Asian]' derivation='None' name='[none:Race/Ethnicity_Asian:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:Calculation_2955487321120509956:nk]' member='&quot;40-59&quot;' />
+          <groupfilter function='member' level='[none:Calculation_2955487321120509956:nk]' member='&quot;60+&quot;' />
+          <groupfilter function='member' level='[none:Calculation_2955487321120509956:nk]' member='&quot;&lt;40&quot;' />
+        </groupfilter>
+      </filter>
+      <filter class='categorical' column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]'>
+        <groupfilter function='member' level='[none:Gender_Male:ok]' member='%null%' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]'>
+        <groupfilter function='member' level='[none:Race/Ethnicity_Asian:ok]' member='%null%' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filter by Selection' name='[Action1_A485CD85ABE646879EF4CC899E1B3307]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Osteoporosis Risk Insights Dashboard' type='sheet' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Osteoporosis Risk Insights Dashboard' />
+      </command>
+    </action>
+    <action caption='Highlight1' name='[Action2_2EFB68C63F73401FB717B264E00FE156]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='Osteoporosis Risk Insights Dashboard' type='sheet' worksheet='Age Group vs. Osteoporosis' />
+      <command command='tsc:brush'>
+        <param name='exclude' value='Lifestyle Risk Score Distribution,Demographics Overview,Age Group vs. Osteoporosis,Feature Comparison' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='Osteoporosis Risk Insights Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Age Group vs. Osteoporosis'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='osteoporosis_processed' name='federated.0l5kb7713zlg3r13t8kl112q0er0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l5kb7713zlg3r13t8kl112q0er0'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Osteoporosis Status' datatype='string' name='[Calculation_2955487321118683136]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Osteoporosis] = 1 THEN &quot;Positive (Osteoporosis)&quot; ELSE &quot;Negative (Normal)&quot; END' />
+            </column>
+            <column caption='Age Group' datatype='string' name='[Calculation_2955487321120509956]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &lt; 40 THEN &quot;&lt;40&quot;&#13;&#10;ELSEIF [Age] &lt; 60 THEN &quot;40-59&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Gender Male' datatype='integer' name='[Gender_Male]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Id]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Osteoporosis]' role='measure' type='quantitative' />
+            <column caption='Race/Ethnicity Asian' datatype='integer' name='[Race/Ethnicity_Asian]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_2955487321118683136]' derivation='None' name='[none:Calculation_2955487321118683136:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2955487321120509956]' derivation='None' name='[none:Calculation_2955487321120509956:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender_Male]' derivation='None' name='[none:Gender_Male:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Race/Ethnicity_Asian]' derivation='None' name='[none:Race/Ethnicity_Asian:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Id]' derivation='Count' name='[pcto:cnt:Id:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]' value='Osteoporosis Status'>
+              <formatted-text>
+                <run bold='true' fontsize='10'>Osteoporosis Status</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0l5kb7713zlg3r13t8kl112q0er0].[pcto:cnt:Id:qk]</rows>
+        <cols>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]</cols>
+      </table>
+      <simple-id uuid='{02EDF610-C9B2-4B0D-BDE2-A804BD43A43A}' />
+    </worksheet>
+    <worksheet name='Demographics Overview'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='osteoporosis_processed' name='federated.0l5kb7713zlg3r13t8kl112q0er0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l5kb7713zlg3r13t8kl112q0er0'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Osteoporosis Status' datatype='string' name='[Calculation_2955487321118683136]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Osteoporosis] = 1 THEN &quot;Positive (Osteoporosis)&quot; ELSE &quot;Negative (Normal)&quot; END' />
+            </column>
+            <column caption='Age Group' datatype='string' name='[Calculation_2955487321120509956]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &lt; 40 THEN &quot;&lt;40&quot;&#13;&#10;ELSEIF [Age] &lt; 60 THEN &quot;40-59&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Osteoporosis Prevalence (Avg)' datatype='real' name='[Calculation_2955487321128636421]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='WINDOW_AVG(AVG([Osteoporosis]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Gender Male' datatype='integer' name='[Gender_Male]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Osteoporosis]' role='measure' type='quantitative' />
+            <column caption='Race/Ethnicity Asian' datatype='integer' name='[Race/Ethnicity_Asian]' role='dimension' type='ordinal' />
+            <column caption='Race/Ethnicity Caucasian' datatype='integer' name='[Race/Ethnicity_Caucasian]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_2955487321120509956]' derivation='None' name='[none:Calculation_2955487321120509956:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender_Male]' derivation='None' name='[none:Gender_Male:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Race/Ethnicity_Asian]' derivation='None' name='[none:Race/Ethnicity_Asian:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Race/Ethnicity_Caucasian]' derivation='None' name='[none:Race/Ethnicity_Caucasian:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2955487321128636421]' derivation='User' name='[usr:Calculation_2955487321128636421:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_A485CD85ABE646879EF4CC899E1B3307]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_2955487321118683136]' />
+              <groupfilter function='level-members' level='[Calculation_2955487321120509956]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Caucasian:ok]' value='10' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Caucasian:ok]' value='688' />
+            <format attr='text-format' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[usr:Calculation_2955487321128636421:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]' value='10' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[usr:Calculation_2955487321128636421:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0l5kb7713zlg3r13t8kl112q0er0].[usr:Calculation_2955487321128636421:qk]</rows>
+        <cols>([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok] / [federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Caucasian:ok]))</cols>
+      </table>
+      <simple-id uuid='{4871BF35-6487-49C6-9F25-619FB4B08A87}' />
+    </worksheet>
+    <worksheet name='Feature Comparison'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='osteoporosis_processed' name='federated.0l5kb7713zlg3r13t8kl112q0er0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l5kb7713zlg3r13t8kl112q0er0'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Body Weight Underweight' datatype='integer' name='[Body Weight_Underweight]' role='dimension' type='ordinal' />
+            <column caption='Calcium Intake Low' datatype='integer' name='[Calcium Intake_Low]' role='dimension' type='ordinal' />
+            <column caption='Osteoporosis Status' datatype='string' name='[Calculation_2955487321118683136]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Osteoporosis] = 1 THEN &quot;Positive (Osteoporosis)&quot; ELSE &quot;Negative (Normal)&quot; END' />
+            </column>
+            <column caption='Age Group' datatype='string' name='[Calculation_2955487321120509956]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &lt; 40 THEN &quot;&lt;40&quot;&#13;&#10;ELSEIF [Age] &lt; 60 THEN &quot;40-59&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Osteoporosis Prevalence (Avg)' datatype='real' name='[Calculation_2955487321128636421]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='WINDOW_AVG(AVG([Osteoporosis]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Family History Yes' datatype='integer' name='[Family History_Yes]' role='dimension' type='ordinal' />
+            <column caption='Gender Male' datatype='integer' name='[Gender_Male]' role='dimension' type='ordinal' />
+            <column caption='Hormonal Changes Postmenopausal' datatype='integer' name='[Hormonal Changes_Postmenopausal]' role='dimension' type='ordinal' />
+            <column caption='Medical Conditions Rheumatoid Arthritis' datatype='integer' name='[Medical Conditions_Rheumatoid Arthritis]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Osteoporosis]' role='measure' type='quantitative' />
+            <column caption='Physical Activity Sedentary' datatype='integer' name='[Physical Activity_Sedentary]' role='dimension' type='ordinal' />
+            <column caption='Prior Fractures Yes' datatype='integer' name='[Prior Fractures_Yes]' role='dimension' type='ordinal' />
+            <column caption='Race/Ethnicity Asian' datatype='integer' name='[Race/Ethnicity_Asian]' role='dimension' type='ordinal' />
+            <column caption='Race/Ethnicity Caucasian' datatype='integer' name='[Race/Ethnicity_Caucasian]' role='dimension' type='ordinal' />
+            <column caption='Smoking Yes' datatype='integer' name='[Smoking_Yes]' role='dimension' type='ordinal' />
+            <column caption='Vitamin D Intake Sufficient' datatype='integer' name='[Vitamin D Intake_Sufficient]' role='dimension' type='ordinal' />
+            <column-instance column='[Body Weight_Underweight]' derivation='None' name='[none:Body Weight_Underweight:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calcium Intake_Low]' derivation='None' name='[none:Calcium Intake_Low:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2955487321120509956]' derivation='None' name='[none:Calculation_2955487321120509956:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Family History_Yes]' derivation='None' name='[none:Family History_Yes:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Gender_Male]' derivation='None' name='[none:Gender_Male:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Hormonal Changes_Postmenopausal]' derivation='None' name='[none:Hormonal Changes_Postmenopausal:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Medical Conditions_Rheumatoid Arthritis]' derivation='None' name='[none:Medical Conditions_Rheumatoid Arthritis:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Physical Activity_Sedentary]' derivation='None' name='[none:Physical Activity_Sedentary:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Prior Fractures_Yes]' derivation='None' name='[none:Prior Fractures_Yes:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Race/Ethnicity_Asian]' derivation='None' name='[none:Race/Ethnicity_Asian:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Race/Ethnicity_Caucasian]' derivation='None' name='[none:Race/Ethnicity_Caucasian:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Smoking_Yes]' derivation='None' name='[none:Smoking_Yes:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Vitamin D Intake_Sufficient]' derivation='None' name='[none:Vitamin D Intake_Sufficient:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2955487321128636421]' derivation='User' name='[usr:Calculation_2955487321128636421:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_A485CD85ABE646879EF4CC899E1B3307]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_2955487321118683136]' />
+              <groupfilter function='level-members' level='[Calculation_2955487321120509956]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Smoking_Yes:ok]' value='10' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Smoking_Yes:ok]' value='588' />
+            <format attr='text-format' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[usr:Calculation_2955487321128636421:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Physical Activity_Sedentary:ok]' value='10' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[usr:Calculation_2955487321128636421:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0l5kb7713zlg3r13t8kl112q0er0].[usr:Calculation_2955487321128636421:qk]</rows>
+        <cols>([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Medical Conditions_Rheumatoid Arthritis:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Hormonal Changes_Postmenopausal:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Family History_Yes:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Prior Fractures_Yes:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Caucasian:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Body Weight_Underweight:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calcium Intake_Low:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Vitamin D Intake_Sufficient:ok] / ([federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Physical Activity_Sedentary:ok] / [federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Smoking_Yes:ok])))))))))))</cols>
+      </table>
+      <simple-id uuid='{7C5864A3-9449-4A7C-B7FD-AFCEACEE4E82}' />
+    </worksheet>
+    <worksheet name='KPI - % Osteoporosis'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='osteoporosis_processed' name='federated.0l5kb7713zlg3r13t8kl112q0er0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l5kb7713zlg3r13t8kl112q0er0'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Osteoporosis Status' datatype='string' name='[Calculation_2955487321118683136]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Osteoporosis] = 1 THEN &quot;Positive (Osteoporosis)&quot; ELSE &quot;Negative (Normal)&quot; END' />
+            </column>
+            <column caption='Age Group' datatype='string' name='[Calculation_2955487321120509956]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &lt; 40 THEN &quot;&lt;40&quot;&#13;&#10;ELSEIF [Age] &lt; 60 THEN &quot;40-59&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Percent Osteoporosis' datatype='real' name='[Calculation_2955487321136680967]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Osteoporosis])' />
+            </column>
+            <column caption='Gender Male' datatype='integer' name='[Gender_Male]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Osteoporosis]' role='measure' type='quantitative' />
+            <column caption='Race/Ethnicity Asian' datatype='integer' name='[Race/Ethnicity_Asian]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_2955487321120509956]' derivation='None' name='[none:Calculation_2955487321120509956:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender_Male]' derivation='None' name='[none:Gender_Male:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Race/Ethnicity_Asian]' derivation='None' name='[none:Race/Ethnicity_Asian:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2955487321136680967]' derivation='User' name='[usr:Calculation_2955487321136680967:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_A485CD85ABE646879EF4CC899E1B3307]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_2955487321118683136]' />
+              <groupfilter function='level-members' level='[Calculation_2955487321120509956]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[usr:Calculation_2955487321136680967:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[usr:Calculation_2955487321136680967:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{798C0097-6C13-4FDF-AE76-5E5406B34193}' />
+    </worksheet>
+    <worksheet name='KPI - Avg Age'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='osteoporosis_processed' name='federated.0l5kb7713zlg3r13t8kl112q0er0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l5kb7713zlg3r13t8kl112q0er0'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Osteoporosis Status' datatype='string' name='[Calculation_2955487321118683136]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Osteoporosis] = 1 THEN &quot;Positive (Osteoporosis)&quot; ELSE &quot;Negative (Normal)&quot; END' />
+            </column>
+            <column caption='Age Group' datatype='string' name='[Calculation_2955487321120509956]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &lt; 40 THEN &quot;&lt;40&quot;&#13;&#10;ELSEIF [Age] &lt; 60 THEN &quot;40-59&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Gender Male' datatype='integer' name='[Gender_Male]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Osteoporosis]' role='measure' type='quantitative' />
+            <column caption='Race/Ethnicity Asian' datatype='integer' name='[Race/Ethnicity_Asian]' role='dimension' type='ordinal' />
+            <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2955487321120509956]' derivation='None' name='[none:Calculation_2955487321120509956:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender_Male]' derivation='None' name='[none:Gender_Male:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Race/Ethnicity_Asian]' derivation='None' name='[none:Race/Ethnicity_Asian:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_A485CD85ABE646879EF4CC899E1B3307]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_2955487321118683136]' />
+              <groupfilter function='level-members' level='[Calculation_2955487321120509956]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[avg:Age:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[avg:Age:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{42982F72-A089-425B-86D5-48D9FCED7D74}' />
+    </worksheet>
+    <worksheet name='KPI - Total Patients'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='osteoporosis_processed' name='federated.0l5kb7713zlg3r13t8kl112q0er0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l5kb7713zlg3r13t8kl112q0er0'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Osteoporosis Status' datatype='string' name='[Calculation_2955487321118683136]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Osteoporosis] = 1 THEN &quot;Positive (Osteoporosis)&quot; ELSE &quot;Negative (Normal)&quot; END' />
+            </column>
+            <column caption='Age Group' datatype='string' name='[Calculation_2955487321120509956]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &lt; 40 THEN &quot;&lt;40&quot;&#13;&#10;ELSEIF [Age] &lt; 60 THEN &quot;40-59&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Gender Male' datatype='integer' name='[Gender_Male]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Id]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Osteoporosis]' role='measure' type='quantitative' />
+            <column caption='Race/Ethnicity Asian' datatype='integer' name='[Race/Ethnicity_Asian]' role='dimension' type='ordinal' />
+            <column-instance column='[Id]' derivation='CountD' name='[ctd:Id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2955487321120509956]' derivation='None' name='[none:Calculation_2955487321120509956:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender_Male]' derivation='None' name='[none:Gender_Male:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Race/Ethnicity_Asian]' derivation='None' name='[none:Race/Ethnicity_Asian:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_A485CD85ABE646879EF4CC899E1B3307]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_2955487321118683136]' />
+              <groupfilter function='level-members' level='[Calculation_2955487321120509956]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[ctd:Id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4D8A1B5C-3243-46F6-B9C2-6908FC6A3A27}' />
+    </worksheet>
+    <worksheet name='Lifestyle Risk Score Distribution'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='osteoporosis_processed' name='federated.0l5kb7713zlg3r13t8kl112q0er0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l5kb7713zlg3r13t8kl112q0er0'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Body Weight Underweight' datatype='integer' name='[Body Weight_Underweight]' role='dimension' type='ordinal' />
+            <column caption='Calcium Intake Low' datatype='integer' name='[Calcium Intake_Low]' role='dimension' type='ordinal' />
+            <column caption='Osteoporosis Status' datatype='string' name='[Calculation_2955487321118683136]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Osteoporosis] = 1 THEN &quot;Positive (Osteoporosis)&quot; ELSE &quot;Negative (Normal)&quot; END' />
+            </column>
+            <column aggregation='Sum' caption='Lifestyle Risk Score' datatype='integer' name='[Calculation_2955487321120227330]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[Smoking_Yes] + [Physical Activity_Sedentary] + [Body Weight_Underweight] + [Calcium Intake_Low]' />
+            </column>
+            <column caption='Age Group' datatype='string' name='[Calculation_2955487321120509956]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &lt; 40 THEN &quot;&lt;40&quot;&#13;&#10;ELSEIF [Age] &lt; 60 THEN &quot;40-59&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Gender Male' datatype='integer' name='[Gender_Male]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Id]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Osteoporosis]' role='measure' type='quantitative' />
+            <column caption='Physical Activity Sedentary' datatype='integer' name='[Physical Activity_Sedentary]' role='dimension' type='ordinal' />
+            <column caption='Race/Ethnicity Asian' datatype='integer' name='[Race/Ethnicity_Asian]' role='dimension' type='ordinal' />
+            <column caption='Smoking Yes' datatype='integer' name='[Smoking_Yes]' role='dimension' type='ordinal' />
+            <column-instance column='[Id]' derivation='Count' name='[cnt:Id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2955487321118683136]' derivation='None' name='[none:Calculation_2955487321118683136:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2955487321120227330]' derivation='None' name='[none:Calculation_2955487321120227330:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2955487321120509956]' derivation='None' name='[none:Calculation_2955487321120509956:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender_Male]' derivation='None' name='[none:Gender_Male:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Race/Ethnicity_Asian]' derivation='None' name='[none:Race/Ethnicity_Asian:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_A485CD85ABE646879EF4CC899E1B3307]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_2955487321118683136]' />
+              <groupfilter function='level-members' level='[Calculation_2955487321120509956]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[Action (Osteoporosis Status,Age Group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120227330:ok]' value='206' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0l5kb7713zlg3r13t8kl112q0er0].[cnt:Id:qk]</rows>
+        <cols>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120227330:ok]</cols>
+      </table>
+      <simple-id uuid='{8E219292-4A6D-429A-B6CD-E1A8CE3FE147}' />
+    </worksheet>
+    <worksheet name='Osteoporosis Prevalence'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='osteoporosis_processed' name='federated.0l5kb7713zlg3r13t8kl112q0er0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l5kb7713zlg3r13t8kl112q0er0'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Osteoporosis Status' datatype='string' name='[Calculation_2955487321118683136]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Osteoporosis] = 1 THEN &quot;Positive (Osteoporosis)&quot; ELSE &quot;Negative (Normal)&quot; END' />
+            </column>
+            <column caption='Age Group' datatype='string' name='[Calculation_2955487321120509956]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &lt; 40 THEN &quot;&lt;40&quot;&#13;&#10;ELSEIF [Age] &lt; 60 THEN &quot;40-59&quot;&#13;&#10;ELSE &quot;60+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Gender Male' datatype='integer' name='[Gender_Male]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Id]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Osteoporosis]' role='measure' type='quantitative' />
+            <column caption='Race/Ethnicity Asian' datatype='integer' name='[Race/Ethnicity_Asian]' role='dimension' type='ordinal' />
+            <column-instance column='[Id]' derivation='Count' name='[cnt:Id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2955487321118683136]' derivation='None' name='[none:Calculation_2955487321118683136:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2955487321120509956]' derivation='None' name='[none:Calculation_2955487321120509956:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender_Male]' derivation='None' name='[none:Gender_Male:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Race/Ethnicity_Asian]' derivation='None' name='[none:Race/Ethnicity_Asian:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</column>
+            <column>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]</rows>
+        <cols>[federated.0l5kb7713zlg3r13t8kl112q0er0].[cnt:Id:qk]</cols>
+      </table>
+      <simple-id uuid='{64E89B02-9939-4C50-948E-CC8FFD1C4C0C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Osteoporosis Risk Insights Dashboard'>
+      <style />
+      <size maxheight='860' maxwidth='1520' minheight='460' minwidth='720' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='56733' id='14' param='horz' type-v2='layout-flow' w='98948' x='526' y='998'>
+            <zone h='56733' id='12' type-v2='layout-basic' w='66119' x='526' y='998'>
+              <zone h='45602' id='36' is-fixed='true' type-v2='layout-basic' w='66119' x='526' y='12129'>
+                <zone h='27023' id='3' param='vert' type-v2='layout-flow' w='66119' x='526' y='12129'>
+                  <zone fixed-size='232' h='27023' id='6' is-fixed='true' param='horz' type-v2='layout-flow' w='66119' x='526' y='12129'>
+                    <zone fixed-size='893' h='27023' id='11' is-fixed='true' name='Age Group vs. Osteoporosis' w='66119' x='526' y='12129'>
+                      <layout-cache minheight='195' type-h='scalable' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+                <zone h='18579' id='37' param='vert' type-v2='layout-flow' w='66119' x='526' y='39152'>
+                  <zone h='18579' id='10' param='horz' type-v2='layout-flow' w='66119' x='526' y='39152'>
+                    <zone h='18579' id='16' name='Lifestyle Risk Score Distribution' w='66119' x='526' y='39152'>
+                      <layout-cache cell-count-w='1' minheight='195' non-cell-size-w='77' type-h='scalable' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone forceUpdate='true' h='11131' id='5' type-v2='text' w='66119' x='526' y='998'>
+                <formatted-text>
+                  <run bold='true' fontalignment='1' fontname='Tableau Bold' fontsize='22'>Osteoporosis Risk Insights Dashboard</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='499' h='56733' id='34' is-fixed='true' type-v2='layout-basic' w='32829' x='66645' y='998'>
+              <zone h='38154' id='13' param='vert' type-v2='layout-flow' w='32829' x='66645' y='998'>
+                <zone h='31671' id='30' param='horz' type-v2='layout-flow' w='32829' x='66645' y='998'>
+                  <zone fixed-size='92' h='31671' id='32' is-fixed='true' name='KPI - % Osteoporosis' w='6579' x='66645' y='998'>
+                    <layout-cache fixed-size-h='246' type-h='fixed' type-w='fixed' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='99' h='31671' id='31' is-fixed='true' name='KPI - Total Patients' w='7039' x='73224' y='998'>
+                    <layout-cache fixed-size-h='211' type-h='fixed' type-w='fixed' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='125' h='31671' id='33' is-fixed='true' name='KPI - Avg Age' w='8750' x='80263' y='998'>
+                    <layout-cache fixed-size-h='141' type-h='fixed' type-w='fixed' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='18579' id='35' param='vert' type-v2='layout-flow' w='32829' x='66645' y='39152'>
+                <zone fixed-size='93' h='12594' id='15' is-fixed='true' name='Age Group vs. Osteoporosis' pane-specification-id='0' param='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]' type-v2='color' w='32829' x='66645' y='39152'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='41271' id='20' is-fixed='true' type-v2='layout-basic' w='98948' x='526' y='57731'>
+            <zone h='41271' id='17' param='horz' type-v2='layout-flow' w='51185' x='526' y='57731'>
+              <zone fixed-size='793' h='41271' id='18' is-fixed='true' name='Feature Comparison' w='51185' x='526' y='57731'>
+                <layout-cache minheight='310' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone h='41271' id='21' param='horz' type-v2='layout-flow' w='47763' x='51711' y='57731'>
+              <zone h='41271' id='19' name='Demographics Overview' w='47763' x='51711' y='57731'>
+                <layout-cache cell-count-w='1' minheight='221' non-cell-size-w='65' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1950' minheight='1950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='43' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='42' param='vert' type-v2='layout-flow' w='98948' x='526' y='998'>
+                <zone forceUpdate='true' h='11131' id='5' type-v2='text' w='66119' x='526' y='998'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontname='Tableau Bold' fontsize='22'>Osteoporosis Risk Insights Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='264' h='31671' id='32' is-fixed='true' name='KPI - % Osteoporosis' w='6579' x='66645' y='998'>
+                  <layout-cache fixed-size-h='246' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='264' h='31671' id='31' is-fixed='true' name='KPI - Total Patients' w='7039' x='73224' y='998'>
+                  <layout-cache fixed-size-h='211' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='264' h='31671' id='33' is-fixed='true' name='KPI - Avg Age' w='8750' x='80263' y='998'>
+                  <layout-cache fixed-size-h='141' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='225' h='27023' id='11' is-fixed='true' name='Age Group vs. Osteoporosis' w='66119' x='526' y='12129'>
+                  <layout-cache minheight='195' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='93' h='12594' id='15' name='Age Group vs. Osteoporosis' pane-specification-id='0' param='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]' type-v2='color' w='32829' x='66645' y='39152'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='151' h='18579' id='16' is-fixed='true' name='Lifestyle Risk Score Distribution' w='66119' x='526' y='39152'>
+                  <layout-cache cell-count-w='1' minheight='195' non-cell-size-w='77' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41271' id='18' is-fixed='true' name='Feature Comparison' w='51185' x='526' y='57731'>
+                  <layout-cache minheight='310' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41271' id='19' is-fixed='true' name='Demographics Overview' w='47763' x='51711' y='57731'>
+                  <layout-cache cell-count-w='1' minheight='221' non-cell-size-w='65' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{706C5A4D-6F46-48BE-B512-E947FE3BEA09}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Osteoporosis Prevalence'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B72A897E-2FBC-41BA-AAF6-F6B7ABD92D1F}' />
+    </window>
+    <window class='worksheet' name='Age Group vs. Osteoporosis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120509956:nk]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Id:nk]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0F5A31E6-28CF-4F34-9425-EDDD6983F9EC}' />
+    </window>
+    <window class='worksheet' name='Lifestyle Risk Score Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321120227330:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{47165931-2109-4CB2-9D62-E406478E638C}' />
+    </window>
+    <window class='worksheet' name='Feature Comparison'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Body Weight_Underweight:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calcium Intake_Low:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Family History_Yes:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Hormonal Changes_Postmenopausal:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Medical Conditions_Rheumatoid Arthritis:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Physical Activity_Sedentary:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Prior Fractures_Yes:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Caucasian:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Smoking_Yes:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Vitamin D Intake_Sufficient:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{95E9470D-F1B6-446C-B178-95F622A54A00}' />
+    </window>
+    <window class='worksheet' name='Demographics Overview'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Gender_Male:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Asian:ok]</field>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Race/Ethnicity_Caucasian:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{52975CCC-8F30-472A-A956-54902D7C2D36}' />
+    </window>
+    <window class='worksheet' name='KPI - Total Patients'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C3D1274F-7E23-4D42-A33B-DABD143F55A4}' />
+    </window>
+    <window class='worksheet' name='KPI - % Osteoporosis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F98F920D-4BE7-427C-B919-1AE3C4AA3F5E}' />
+    </window>
+    <window class='worksheet' name='KPI - Avg Age'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AA6D3181-B0C0-4532-AA08-009060DB62ED}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Osteoporosis Risk Insights Dashboard'>
+      <viewpoints>
+        <viewpoint name='Age Group vs. Osteoporosis'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0l5kb7713zlg3r13t8kl112q0er0].[none:Calculation_2955487321118683136:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Demographics Overview'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Feature Comparison'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI - % Osteoporosis' />
+        <viewpoint name='KPI - Avg Age' />
+        <viewpoint name='KPI - Total Patients' />
+        <viewpoint name='Lifestyle Risk Score Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{684890B8-644B-46F6-8D7B-756BE76A0999}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Age Group vs. Osteoporosis' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Demographics Overview' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Feature Comparison' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='25' name='KPI - % Osteoporosis' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAEa0lEQVRYhe2YT2gTWxTGfwlDmxLp9J8phRaxhBYaJAQKbtJdhUo3WUiziBtdtNCFUCmC
+      C8GWdNOFu9ISd0KgQgtV7MJF6UIiLkqhlYgxjtDSiolpExPjGE3muHg4GhJ9m/jCw34wi/nu
+      Od898917zwxjERHhL4a13gXUGycG1LuAeuPEgHoXUG+cGFDvAuqNEwPqXUC9cWJAvQuoN/56
+      A5RaC2azWUKhENlstox3uVz4/X7z/vnz58zPz/P69WucTic3btzg3Llzv9T9/PkzoVCItbU1
+      AHw+H+Pj49hsNgC+fPnCvXv3ePjwIR6Ph6mpKVpaWsz8vb09IpEIly5doqGh4Yew1Bh7e3ty
+      7do1efPmjSQSCfPKZDJmTCwWE7/fL9vb2yIisr29LX6/X2KxWFXNUqkkc3NzEgwGRdd10XVd
+      gsGgzM3NSalUEhGRcDgsS0tLUiqVZH19XWZmZuTr168iIlIoFCQYDJrz/YyaH4F3797R0tLC
+      2bNncTgc5qWqqhmzsrLC2NgYHo8HAI/Hw9jYGCsrK1U1NU3j4OCAyclJbDYbNpuNyclJDg4O
+      0DSNQqHAixcvuHjxIlarlaGhIT59+sTx8TEAz549Q1VV3G53hXbNDXj79i2dnZ2/HM/lcqRS
+      KQYHB8v4wcFBUqkUuVyuIkfTNJxOJ62trSbX2tqK0+lE0zSKxSLFYtE8Dlbrj8fK5/NEIhEC
+      gUAZ/x1/xID29naSySTJZJJCoVA2rus6hmGU7QgAVVUxDANd1ys09/f36e3treB7e3vZ39+n
+      sbGRhoYGc8WLxSIAiqKwvr7O0NAQqqqSSqXI5/NlGjVvgt3d3WxtbRGNRkmn00SjUdxuNzdv
+      3sThcABgs9lQlPKpFUUxV7AaTp06VZVLJpMoisLw8DChUIjx8XEeP35MX18fHz9+JJPJMDw8
+      zNTUFFarlffv33P58mVGRkb+Eal1E6yGRCIhV65ckUQiIUdHRzIxMSGHh4dlMYeHhzIxMSFH
+      R0cV+eFwWBYWFir4hYUFCYfDVed88uSJ3L9/X0REZmdnZWdnxxz7+f4/+Q74viUBmpubUVWV
+      eDxeFhOPx1FVlebm5or8/v5+YrFY2fHQdZ1YLEZ/f39FfDqdZmNjgwsXLvxrbTU1IJlMsri4
+      SDqdNjnDMHjw4AFOp5OOjg4URWF0dJTl5WXzWyGbzbK8vMzo6Kh5NJ4+fWoaNzAwgMViYXNz
+      09Td3NzEYrEwMDBQVoNhGKyurnL+/HmzaZ45c4ZXr14BcHx8TC6Xo6urC6hxD+jo6KCnp4er
+      V69itVrp7u7m5cuXuFwubt++bXZhr9dLPB4nEAjgcrmIRqP4fD68Xq+pdffuXdxuN4qi0NTU
+      xPT0NNevX+fRo0cApFIp7ty5Q1NTU1kNu7u7aJpGIBAwOZ/Px61bt4hEImYPOH36NAAWkT/z
+      W/zDhw8UCgXsdjt2u71qTD6fJ5/P/zbmZxiGYXb6tra2qq+13+VmMhnsdjuNjY0m/8cM+L/g
+      G2GrNT+wfThWAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='25' name='KPI - Avg Age' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACLUlEQVRYhe2YQUtqQRiGn/SgEFJguEpKhFbmL/APtHDlqo2boKWbdF2I4FJoUxStQ/dC
+      4M6T0D8QdBEchAyFkOMZEeWcr50Xubi5XBhO+exmePl452Xmm2F2RET4xQR0G9DNNgDdBnSz
+      DUC3Ad1sA9BtQDfbAHQb0M02AN0GdPPrAzB0G/hXPj4+qNfrmKbJYrEgEolwfn5ONpslFAoB
+      sFgsqNfrNBoNbNsmnU5TKpVIJpN/CokPcRxHrq+v5eXlRRzHERGR0WgkpVJJarWauK4rruvK
+      4+OjVKtVUUqJ67rSbrcln8/LYDBY1fJlAJuwLEuKxaI4jiOWZUmhUJDJZLKmeXh4kNvb29X4
+      R/WA4XCI53kYhsFkMiEWi7G/v7+myWQyvL+/M5vNgB/SBJfLJaZpcn9/z8XFBeFwmGAwyHg8
+      Rim1po3FYti2jeM4gM8DeH5+5uzsjEwmQ7PZpFarcXp6CsDJyQmGYfD09MR8PgfAtm1eX19X
+      iwf82QQ3YVmWXF5eynA43Kjp9/tydXUlSikR+WE94ODggFAoxGg02qh5e3vj+PiY3d1dwKdH
+      wLIsTNPE87y1+W63y3K5JJFIADCbzdY0/X6fTqdDLpdbzfnyIRSJRGi1Wtzc3HB4eMjR0RG9
+      Xg/DMKhUKuzt7QFwd3dHu90mlUoxnU75/PykXC4Tj8dXtXZE/Pst7nkeX19feJ5HOBz+68oD
+      UEqhlCIQCBCNRgkE1je9rwP4H3wD1QOFHk15lJUAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='25' name='KPI - Total Patients' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAADLklEQVRYhe2YQUgqURSGP6cS0zAMHSKCIDCSMGidCUKuchVEu1bWIlq2kTaFqbQoWrXJ
+      TUaQCNKi1iFKQbsI0ixaWEiQUVlKmExvEQmDvfcgqunx/GEW88895577zz3n3BnVy8vLC/8x
+      BKUDUBo1AZQOQGnUBFA6AKVRE0DpAJRGTQClA1AaNQGUDkBp/PcC1H/XRJIkcXBwQCQSwePx
+      YDQafzv24uKC1dXVKl6v1zMxMYFer5fxt7e3zMzM0NjYiNfrRavVAlAqldjc3CQcDpPP57Fa
+      rUxPT9PZ2Vmx/XIBJEni5OSEQCBAqVTi+fkZSZL+aNPa2srU1JSMS6fTrK+vv+t/bW0No9HI
+      zc0Nbx+3b3wulyMSiaDRaEgkEszOzuL3+2lvbwe+IQVyuRzBYBCPx8Py8jLNzc1/tWloaEAU
+      xcplNBrZ3d1laGio6u0fHh6SzWZxuVyoVKoKf3l5ydHREZOTk2i1WgRBwG63Y7PZiEajlXFf
+      LoAoiiwuLmKxWBCEj02XTqfJZrMMDAzI+Hw+TygUwu12o9FoZM/u7u4wmUxVgvf393N+fk6x
+      WAT+gSIoSRLRaBSn04nBYJDx4XAYq9VKV1dXlV1dXR3X19cUCgUZbzKZyOfzPD4+Av+AAJlM
+      hkwmg91ul/HHx8ekUilGR0fftTObzdTX1xMMBnl6egJed0w8Hq8sHr6xC3wEmUwGv9+Pz+eT
+      dY1wOEwoFKKvr4+FhQXgdcufnZ3h8/lwOp04HA6WlpZk/vR6Pb29vezt7dHU1AT8cAG2traw
+      2WyYTCYZ73K5cDgcMi6ZTLKxscH4+DiiKP7W5/7+Ph0dHZVW+WNSIJlMcnp6WrnPZrOkUikG
+      Bwerxup0OlmXEEURg8GAWq1GFEV0Oh0AxWJR1nLT6TSJRILh4eEK9+U7IB6PEwgEgNfCdX9/
+      z9jYGIIgYLFY8Hq9lMtl/H4/IyMjmM1mALa3t+nu7qatre3Dc6+srBCLxejp6eHh4YGrqyvm
+      5uYqZwAA1U/4LR6LxdjZ2WF+fh61Wv2pvguFAoVCAUEQaGlpqWrFiteAcrlMPB7H7XZ/+uLh
+      NV3eUuI9/AJm4zIZlknJmAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Lifestyle Risk Score Distribution' width='192'>
+      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
+      ocmcPtFEIgtFFRVMCriIpQyKCwZ7fymqk0JfHvFsAiVlUFI0uLIrDidFviCJbAYInekeOTx1
+      yxppmzoWH56emDgsLu69nSAdYixy2X6ON54msOwq8tV+try6j/nrrsehqnjUoS4wioLb4QLF
+      xFAdeIbblyoKLocLSx18IXRdH1lpTdPEsqyLapOa07SLWjpx6eiaTi439j7OEyQA4PaEmf25
+      JaxYOAUsk5C5m2PRKBW6Rv/QAlqWSTqbxjKdOHWNvrPqGTAGg+JyuUamq2kaqqpeVCtNj3vs
+      TbbFpeVyufB6vWMef4JcNlEpqSykp6WVpDG4W0tnc7gdHkpKg5w62U7WAjOXpL0vQUFoEqWl
+      AU61DNWzSdr7ExSE8i73gogrzLj3Ce5rO8iO3fvpj/fTHoenuxqpWLyBdXNncnXFO7yy6SUK
+      gwpxcxJr5xWT553E3NbNbHrxNYJGP75pq6ko8OIOz2N269u88GIEv9FPYPq1lE8a+5ZA2JNi
+      TaQzPMtC13NoOnh8npHdk2VZ6LkBDMWF1+0cNfi566N9FodAkWiS//aTP455fHHp/I/bV7Bu
+      ydQxjasoijJhzgEAUBScLg9O14fLCi6PD9dHBj93XYjzNUHOAYS4PCQAwtYkAMLWJADC1iQA
+      wtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLW
+      JADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYuW5vU4Xuyf6R1
+      0ajHUBQUPtqja3icj6sLcb7GPwCWQbK3g/r33+OoUcPXb1k6+kG0VAdb//gavQVr+PKNc3Eb
+      GZrf/zPvHGrBcniZvXQdS+eU4bYyHK/bza5DJ7FcPuYsvY4ls8twyz5NXIBxD0A22s7e+ia8
+      Tjeabpz1mGUanDjciLO4GEfawAJSnUfZ1+XkS3d+A182wpvb9tBZdiMFqUb297j50te+gXfg
+      NG/V1tFVegOVkzzjvUjiCjbu20t3QRXXrVvPopmV+FyjD1ksUl1HaI6FWDSrfKhmEOlIUDlz
+      GiG3gjNYxLSiPKJ9fUQ6ElTNnE7IreDKm0xNQZDeWHy8F0dc4cZ9D/Cxx+nZKO/XtTPr2g0E
+      0sM9hC1yQMDpGRnX5/CQUnJkUQgMtZJRFBWf002GwW6OuVzurDapF2sgm73oaYhLI6flyGQy
+      Yx5/QrRIskydI+/tpNtdTHV/B209PST6vXT2VqFYJro5dKhkgWEaYCmopkl2eOUeVYez26Tq
+      uo6qqqjq2Hd2Xo/x6QOJy8Ltcl9Um9QJEQBQCBZXM23AQTKRIJceQMtZZLIGQbfFyVgSKMEy
+      DXrTcXwOP0G3SVs8CRRjmTq96cRZe4qPPINcIfoP62Le23FvkzoQ76HtVIREVyvRTouGBi95
+      xVOpnnUVlUNDDXSmaYr5qSmbhCs0k/q39lIXsPBnI0SyeawpKSBUOIsDb9VR5zPxD3TSlQux
+      pjg8vosjrnjjvgewLBPDMFDzq1kVAsMwMCzrrBS7w9NZscSBU1FQg2Vcd+0ijpzqJ0uAZavm
+      ke9VUCjjumsX0niqn6ySx7JVc8n3yFZeXJhxDoCCL7+EOQtLPnEoh6+Q6opR4xRNYUnRlMG/
+      RoKi4D9nXYjzN0HOAT7Zx63cstKLiyWfmwpbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbkwAI
+      W5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuT
+      AAhbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW7tsfYKT3Sc4FvWwZM7wfdAtMr2tvLu3
+      noTmZtayFcwoCeFQINvXSu2OPWQ8xaxas5rJ/sHcZqOt1O7cQ8ZTwqo1q0bqQpyvcV9jjIEY
+      B997i5defp13GttH6onTx6ita6LmqmtZs3IBrXu20NgRQ4+38NbbHzBl+UZWzQ6y461t9GQM
+      tFgLb27ex9TlG1k5y8+Ot2vpzUgvL3Fhxr9DjG7gK1/IF8sm82rjmRXWW1TDxg3TcDqdYAUp
+      DwdIptJ097bjmbGA2aX5WMY8qk5upbsnTi56Ct/MBcwqzccy5lN5civdvUkKK/PHe5HEFWzc
+      A+AMFjAtCOm2zrPqw50dTT1LV9sRmvpMli8KE2s0mVyQB4CiOin0BolqSRgwmTx5VN0TpF/L
+      APmYpjnSJtWyrLP+HgvDlD3LRGWaJrquj3n8CdUhxjQy1L+zmZPpIFdft57SfJWYquIabnGq
+      KDhUJ4piYZ1VB4fDAcqZ3sCjA2B9qAfZhc/XxfcaFpeGaZkX1Qt6wgTAzCXYV/sWvYVL2biy
+      Cr/bARi4TY32oUbIlmUQzyRQLDceQ+N0eqhuGsQySVRrcHGczjOLpWkaqqoOBmSMXK7c2BdM
+      XFJOhxO32z3m8SfIZROLWOthTqg1bFg6dWjlB1ApKQ9zurmNjAlGNk57NEVheBKlFWE6mtvI
+      WIP1031pCsOhy7oU4soz7n2C+9oOsmP3fuLpDLEsPP10IxWL1zHDSpNuOcEzTx8aGjaPxdev
+      ZX75fFb2bOflF1/Ba6YpveoGKsNu1PACVvTU8vILrw7Wl2ykIjz2LYGwp/8P5p2YiswQangA
+      AAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='127' name='Osteoporosis Prevalence' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Osteoporosis Risk Insights Dashboard' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
